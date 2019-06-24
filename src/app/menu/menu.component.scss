@@ -1,0 +1,40 @@
+.nav-link {
+    color: gray !important;
+}
+
+.navbar-toggler-icon {
+    background-color: gray !important;
+}
+
+.bg-dark {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+footer {
+    background-color: #57585b!important;
+    color: white;
+    padding: 2rem 0 3rem;
+}
+
+footer img {
+    height: 3rem;
+    margin: 1.5rem 0;
+}
+
+footer a {
+    color: white;
+}
+
+footer a i {
+    font-size: 1.6rem;
+    margin: 1.2rem .5rem 0 0;
+}
+
+footer a i:hover {
+    color: #1ebba3;
+}
+
+hr.socket {
+    border-top: .2rem solid #666b71;
+    width: 100%;
+}

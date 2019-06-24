@@ -1,0 +1,60 @@
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="/assets/img/logo2.png" alt="logo" height="50" width="100">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" routerLink="/home" routerLinkActive="active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/book" routerLinkActive="active">Book</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/gallary" routerLinkActive="active">Gallary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact</a>
+                    </li>
+
+                    <!-- <li class="nav-item">
+              <a class="nav-link" [routerLink]="['Login']" routerLinkActive="active">Login</a>
+            </li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<router-outlet></router-outlet>
+
+<footer id="Contact">
+    <div class="row justify-content-center">
+        <div class="col-md-5 text-center">
+            <img src="/assets/img/logo2.png" alt="logo" height="600" width="100">
+
+            <br>
+            <strong>Contact Us</strong>
+            <p>012 341 3473/4
+                <br>reservations@thepretoriahotel.com</p>
+
+            <b>Physical Address</b>
+            <p> 230 Hamilton Street<br> Arcardia
+                <br> Pretoria
+                <br> South Africa
+            </p>
+
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <hr class="socket"> &copy; Gaopalelwe
+    </div>
+</footer>

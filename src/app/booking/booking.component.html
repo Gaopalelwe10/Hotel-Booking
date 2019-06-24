@@ -1,0 +1,182 @@
+<section class="listings">
+    <section class="search-sec" id="search">
+        <div class="container">
+            <form action="#" method="post" novalidate="novalidate">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <div class="col-lg-2 col-md-2 col-sm-12 p-0">
+                                <label>Check in</label>
+                                <input type="date" class="form-control search-slt" placeholder="Check - In">
+
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-12 p-0">
+                                <label>Check out</label>
+                                <input type="date" class="form-control search-slt" placeholder="Check - out">
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-12 p-0">
+                                <label>Adults</label>
+                                <select class="form-control search-slt" id="exampleFormControlSelect1">
+                                    
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-12 p-0">
+                                <label>Children</label>
+                                <select class="form-control search-slt" id="exampleFormControlSelect1">
+                                    <option>0</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-3 col-md-2 col-sm-12 p-0 button-check">
+                                <button type="button" class="btn btn-success wrn-btn" (click)="onCheck">Check  Availability</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12">
+                <!-- <div class="row">
+                    <div class="col-md-12">
+                        <ul class="nav nav-justified nav-pills">
+                            <p class="nav-item"> Luxury Hotel</p>
+
+                        </ul>
+                    </div>
+                </div> -->
+
+                <div class="card mb-3">
+                    <div class="row ">
+                        <div class="col-md-4">
+                            <img src="assets/img/middle (1).jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+
+                                    <li class="text-secondary"><small>Best Available Rate </small></li>
+                                    <li class="text-secondary">650 ZAR </li>
+                                    <li class="text-secondary"><small>1 Night </small></li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 border-left card-body">
+                            <button type="button" class="btn btn-secondary" (click)="onClick()">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="row ">
+                        <div class="col-md-4">
+                            <img src="assets/img/MG_1561_2Enhancer01PM.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+
+                                    <li class="text-secondary"><small>Best Available Rate </small></li>
+                                    <li class="text-secondary">1300 ZAR </li>
+                                    <li class="text-secondary"><small>1 Night </small></li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 border-left card-body">
+                            <button type="button" class="btn btn-secondary" (click)="onClick()">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="row ">
+                        <div class="col-md-4">
+                            <img src="assets/img/middle.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+
+                                    <li class="text-secondary"><small>Best Available Rate </small></li>
+                                    <li class="text-secondary">650 ZAR </li>
+                                    <li class="text-secondary"><small>2 Night </small></li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 border-left card-body">
+                            <button type="button" class="btn btn-secondary" (click)="onClick()">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="row ">
+                        <div class="col-md-4">
+                            <img src="assets/img/MG_1561_2Enhancer01PM.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+
+                                    <li class="text-secondary"><small>Best Available Rate </small></li>
+                                    <li class="text-secondary">3000 ZAR </li>
+                                    <li class="text-secondary"><small>2 Night </small></li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 border-left card-body">
+                            <button type="button" class="btn btn-secondary" (click)="onClick()">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="row ">
+                        <div class="col-md-4">
+                            <img src="assets/img/middle.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+
+                                    <li class="text-secondary"><small>Best Available Rate </small></li>
+                                    <li class="text-secondary">650 ZAR </li>
+                                    <li class="text-secondary"><small>1 Night </small></li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 border-left card-body">
+                            <button type="button" class="btn btn-secondary" (click)="onClick()">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+</section>
